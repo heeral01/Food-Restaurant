@@ -1,0 +1,27 @@
+.Header{
+    background-color: black;
+
+}
+.Head_h1{
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 0.04em;
+    line-height: 117px;
+    font-size: 50px;
+
+}
+.Header_button{
+    background-color: gold;
+    color: black;
+    padding: 1%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.Header_p{
+    width: 50%;
+}
+.Header_img img{
+    margin-right: 60px;
+}
+
+

@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300;10..48,400&family=Inter:wght@300;400;500;600&family=Jost:wght@300&display=swap");
+
+  @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300&family=Cormorant+Garamond:ital,wght@0,500;1,400&family=Inter:wght@300;400;500;600&family=Jost:wght@300&family=Tilt+Prism&display=swap');
+
+
+:root {
+  font-family: "Bricolage Grotesque", sans-serif;
+
+  --primary:rgb(119, 113, 113);
+  --secondary:rgb(149, 18, 18);
+  --third:rgb(239, 159, 10);
+}
+
+*{
+
+    font-family: 'Cormorant Garamond', serif;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    color:gold;
+}
+
+a{
+  text-decoration: none;
+}
+.slide-bottom{
+  --webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460,0.450,0.940) both;
+          animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-bottom{
+     0%{
+      -webkit-transform: translateY(-25%);
+               transform: translateY(-25%);
+     }
+     100%{
+      -webkit-transform: translateY(0);
+               transform: translateY(0);
+
+     }
+}
+
+@keyframes slide-bottom{
+     0%{
+      -webkit-transform: translateY(-25%);
+               transform: translateY(-25%);
+     }
+     100%{
+      -webkit-transform: translateY(0);
+               transform: translateY(0);
+
+     }
+}

@@ -1,0 +1,100 @@
+.special{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+.special_logo,
+.special_menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1px;
+}
+.special_logo img{
+    width: 10rem;
+}
+.s_img-container,
+.s_card-content{
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px 14px;
+}
+
+.s_card-imge{
+
+    position: relative;
+    height: 200px;
+    width: 250px;
+    background: gold;
+    padding: 3px;
+    border-radius: 0 100px 0 100px;
+}
+.s_card-imge .s_card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0 100px 0 100px;
+    border: 4px solid gold;
+}
+.s_slider-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+.s_card{
+    border-radius: 25px;
+    background-color: black;
+}
+
+.s_slider-content{
+    margin: 0 40px;
+}
+.name{
+    font-size: 22px;
+    font-weight: 600px;
+    color: white;
+    text-align: center;
+    line-height: 2rem;
+}
+.description{
+    font-size: 20px;
+    line-height: 1rem;
+}
+
+.s_img-container{
+    position: relative;
+    row-gap: 5px;
+}
+.s_overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    
+}
+.s_overlay::before,
+.s_overlay::after{
+    content: '';
+    position: absolute;
+
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    
+
+}
+
+.s_slider-container{
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px;
+    
+}
